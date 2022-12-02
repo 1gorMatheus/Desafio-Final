@@ -1,0 +1,43 @@
+/* header{
+    height: 60vh;
+    width: 100%;
+    background-color: aqua;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navegacao{
+    
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 3rem 0  3rem;
+    margin: 2rem 2rem 0 2em;
+}
+button{
+    display: none;
+}
+@media screen and (max-width: 480px) {
+    button{
+        display: flex;
+        color: white;
+        background-color: black;
+        padding: 2vh 10vw ;
+        margin-top: 1rem;
+        border: 0;
+    }
+    .menu{
+        display: none
+    }
+    .navegacao{
+      background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+        margin: 0;
+    }
+
+}
