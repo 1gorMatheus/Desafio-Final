@@ -13,21 +13,33 @@
 button{
     display: none;
 }
+.menu{
+    transition: 1s all;
+	cursor: pointer;
+}
  ul{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
 }
-li a {
+.menu a {
     padding-left: 2rem;
-    color: #000000;
+    color: #CCCCCC;
     font-weight: bold;
     text-decoration: none;
+    transition: 0.5s ;
+	cursor: pointer;
+    
+}
+.menu a:hover {
+    color: #000000;
+}
+.menu li{
+    transition: 0.5s ;
+	cursor: pointer;
 }
 .menu li:hover{
-    font-weight: bold;
-    font-size: 1,5rem;
-    transform: scale(1.5);
+    transform: scale(1.5); /* faz com que aumente quando o mause é passado por cima, não funciona se for colocado direto na tag <a> */
 }
 @media screen and (max-width: 480px) {
     .menu{
