@@ -112,6 +112,25 @@ h3:hover{
     transition: 1.5s;
     transform:scale(1.1);
 }
+.footer{
+    background-color: #CCCCCC;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    
+}
+.redesSocias {
+    list-style: none;
+    padding-left: 5rem;
+}
+.redesSocias ul li{
+    margin: 0 1rem;
+    width: 1.3rem;
+}
+h4{
+    padding: 0 4rem 0 9rem;
+}
+
 @media screen and  (max-width: 480px) {
     * {
         margin: 0;
@@ -173,5 +192,14 @@ h3:hover{
     }
     .imagens{
         width: 90%;
+    }
+    .footer{
+        flex-direction: column;
+        background-color: snow;
+    }
+    .redesSocias{
+        display: flex;
+        padding: 0.5vw;
+        background-color: #7FDBD4;
     }
 }
