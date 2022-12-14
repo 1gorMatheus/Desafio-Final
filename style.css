@@ -124,12 +124,15 @@ h3:hover{
     list-style: none;
     padding-left: 4rem;
 }
+.textFooter{
+    display: flex;
+}
 .svg{
     width: 1.9rem;
     height: 1.9rem;
 }
 h4{
-    padding: 0 4rem 0 9rem;
+    padding: 0 4rem 0 6rem;
 }
 
 @media screen and  (max-width: 480px) {
@@ -150,7 +153,7 @@ h4{
         padding: 0;
         margin: 0;
     }
-    button{
+    .bntMenu{
         display: flex;
         color: white;
         background-color: black;
@@ -214,12 +217,32 @@ h4{
         justify-content: space-around;
         width: 100%;
     }
+    .rodape{
+        display: flex;
+        width: 81%;
+        padding-top: 1rem;
+    }
     .textFooter{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        width: 67%;
     }
     h4{
         padding: 0;
+    }
+    .topo{
+        display: flex;
+        color: #CCCCCC;
+        width: 30%;
+        height: 2.4rem;
+        background-color: #333333;
+        color: #CCCCCC;
+        font-weight: 600;
+        justify-content: center;
+        padding-top: 0.6rem
+    }
+    p {
+        font-size: 2.4vw;
     }
 }
